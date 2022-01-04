@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>codetype</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div id= "header">
+  <img id="logo" src="assets/images/logo.png">
+  <nav>
+    <ul>
+       <li>
+         <a id="home" href="index.html">main</a>
+       </li>
+       <li>
+         <a id="settings" href="settings. html">settings</a>
+       </li>
+    </ul>
+  </nav>
+</div>
+<div id= "code">
+<p>
+#include < iostream><br>
+#include < cstring><br>
+using namespace std;<br>
+void letters(char str[100]);<br>
+int main() {<br>
+cin >> str;<br>
+letters(str);<br>
+return 0;<br>
+}<br>
+void letters(char str[100]) {<br>
+int length = strlen(str);<br>
+for (int i = 0; i < length; i++) { if (str[i]>= 'a' && str[i] <= 'z')<br>
+{ str[i]=str[i] - 32; } else if(str[i]>= 'A' <br>
+&& str[i] <= 'Z' ){ str[i]=str[i] + 32; } else{ str[i]=' ' ; }<br> 
+cout<< str[i]; } }<br>
+</p>
+</div>
+<form class="form">
+  <input type="text" class="form_input" placeholder="Вводите код">
+</form>
+</body>
+
+</html>

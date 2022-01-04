@@ -1,0 +1,93 @@
+body {
+	background-color: #333333;
+	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+}
+
+a {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#header {
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	align-items: center;
+}
+
+#header #logo {
+	float: left;
+}
+
+nav > ul {
+	list-style: none;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	margin: 0 15px;
+}
+
+nav #user-buttons ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	background-color: #fff;
+	border: 5px solid #fff;
+	border-radius: 8px;
+}
+
+nav #user-buttons li {
+	border-radius: 5px;
+}
+
+nav #user-buttons li a {
+	color: #333;
+}
+
+nav #user-buttons li:nth-child(1) {
+	background-color: #333;
+}
+
+nav #user-buttons li:nth-child(1) a {
+	color: #fff;
+}
+
+#main {
+	margin-top: 270px;
+	text-align: center;
+}
+
+#main #start-button {
+	padding: 2px 8px;
+	text-decoration: none;
+	color: #333333;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+
+#form {
+    margin-top: 50px;
+}
+
+.table {
+    display: table;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-color: white;
+    position: static;
+    text-align: center;
+    margin-left: 660px;
+    margin-top: 50px;
+}
